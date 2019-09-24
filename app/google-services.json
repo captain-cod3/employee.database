@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "235815111623",
+    "firebase_url": "https://employeedatabase-e3e91.firebaseio.com",
+    "project_id": "employeedatabase-e3e91",
+    "storage_bucket": "employeedatabase-e3e91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235815111623:android:f855e912ba5ba4c8",
+        "android_client_info": {
+          "package_name": "com.example.employeedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235815111623-lhjmmjdgvotisldu6sk5f93r4sh1qlhh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.employeedatabase",
+            "certificate_hash": "8212a7af68341552412672da96ce01e7ab4ff427"
+          }
+        },
+        {
+          "client_id": "235815111623-sgcjoce760o0llgb8fmeuhb6ii4vihob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA51WCUgpuTa2nPiWqbagZxgF86JYv-7Ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235815111623-sgcjoce760o0llgb8fmeuhb6ii4vihob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

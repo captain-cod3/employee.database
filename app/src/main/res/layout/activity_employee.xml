@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employee"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/limg"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="90dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/c" />
+
+        <LinearLayout
+            android:id="@+id/ldata"
+            android:layout_width="305dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/img1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tid"
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/username"
+                android:hint="ID"
+                android:textAlignment="center"
+                android:textColor="#FFFAFA" />
+
+            <TextView
+                android:id="@+id/tname"
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/username"
+                android:hint="NAME"
+                android:textAlignment="center"
+                android:textColor="#FFFAFA" />
+
+            <TextView
+                android:id="@+id/tpost"
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/username"
+                android:hint="POSITION"
+                android:textAlignment="center"
+                android:textColor="#FFFAFA" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
